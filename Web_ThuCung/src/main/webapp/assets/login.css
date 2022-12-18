@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.navbar-right a{
+	padding-left: 10px;
+	text-decoration:none;
+}
+
+.navbar-right {
+	    width: 408px;
+    list-style: none;
+    font-weight: 600;
+    display: flex;
+    margin: 0 1097px;
+
+}
+

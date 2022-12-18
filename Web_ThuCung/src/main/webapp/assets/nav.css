@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbarr{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9;
+    border-bottom: 1px solid; 
+    
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.navbarr>.container {
+	justify-content: none;
+}
+
+.brand-logo{
+	position: absolute;
+    height: 110px;
+    top: 10px;
+    margin-left: 7px;
+   /*  margin-top: 10px ; */
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+/* .fa-magnifying-glass{
+	 padding-bottom: 10px
+} */
+
+.search{
+    width: 500px;
+    margin-left: 60%; 
+    margin-bottom:40px;
+    display: flex;
+}
+
+.fa-dog, .fa-cart-shopping  {
+	margin-bottom: 40px;
+	font-size:25px;
+	color: #000;
+}
+
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder{
+    color: #a9a9a9;
+}
+
+.nav-items {
+	padding-top: 20px;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+.containerr{
+	width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+    margin-bottom: 0;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover{
+    opacity: 1;
+}
+
+.contact {
+	font-style:italic;
+	color:red;
+	position:absolute;
+	margin-left:1300px;
+}
+
+

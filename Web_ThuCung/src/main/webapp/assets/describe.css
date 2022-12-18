@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.describe{
+	height: 220px;
+	width: 1100px;
+	background-color: #CFCFCF;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius:200px; 
+}
+
+.block-text-describe {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.text-describe {
+	padding-top:30px;
+	text-align: center;
+}
+
+.text-describe h1{
+	font-family: cursive;
+}
+
+.text-describe h2{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 10;
+	font-family: cursive;
+}
